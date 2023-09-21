@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 .header {
@@ -14,13 +16,36 @@ body {
     color: #F9FAF8;
 }
 
-ul {
-    display: flex;
+a {
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
     list-style-type: none;
+    gap: 8px;
 }
 
 .section-one {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
 }
