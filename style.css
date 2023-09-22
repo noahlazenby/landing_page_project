@@ -40,7 +40,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 16px;
+    margin: 16px 0 32px 0;
 }
 .container {
     display: flex;
@@ -81,4 +81,44 @@ button {
 
 img {
     border-radius: 25px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0px 64px 0px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+    max-width: 600px;
+}
+
+.quote-author {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 400px;
+}
+
+.section-four {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 150px 150px 150px;
+    width: auto;
+    border-radius: 8px;
+    padding: 32px 128px 32px 128px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 32px 0px 32px 0px;
 }
