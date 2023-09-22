@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
+    padding: 10px 150px 0px 150px;
 }
 
 .title {
@@ -31,21 +32,53 @@ ul {
 .section-one {
     background-color: #1f2937;
     display: flex;
+    justify-content: space-between;
+    padding: 0px 150px 0px 150px;
+}
+
+.section-two {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+.container {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
 }
 
 .main-text {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    width: 500px;
 }
 
 .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    width: 600px;
 }
 
 button {
     background-color: #3882F6;
     color: #E5E7EB;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.card {
+    max-width: 200px;
+    text-align: center;
+}
+
+img {
+    border-radius: 25px;
 }
